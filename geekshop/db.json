@@ -1,0 +1,46 @@
+[
+  {
+    "model": "mainapp.productcategory",
+    "pk": 31,
+    "fields": {
+      "name": "шкафы",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 32,
+    "fields": {
+      "name": "Столы",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 33,
+    "fields": {
+      "name": "Люстры",
+      "description": ""
+    }
+  },
+  {
+    "model": "authapp.shopuser",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$hvLCFhF6TbGZ8Uagfq2ob5$AHgAfK/bP/t89DbOvPabbwwyJGF9sdk6isDQoojGhUY=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "django",
+      "first_name": "",
+      "last_name": "",
+      "email": "django@geekshop.local",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-05-09T10:00:18.848Z",
+      "avatar": "",
+      "age": 33,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
