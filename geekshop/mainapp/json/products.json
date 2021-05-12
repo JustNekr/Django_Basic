@@ -1,0 +1,119 @@
+[
+  {
+    "category": "дом",
+    "name": "Диван",
+    "image": "products_images/product-3-sm.jpg",
+    "short_desc": "диван как диван",
+    "description": "",
+    "price": "15000.00",
+    "quantity": 5
+  },
+  {
+    "category": "дом",
+    "name": "парные кресла",
+    "image": "products_images/product-2.jpg",
+    "short_desc": "почему бы и нет",
+    "description": "",
+    "price": "8000.00",
+    "quantity": 10
+  },
+  {
+    "category": "модерн",
+    "name": "Лампа",
+    "image": "products_images/product-11.jpg",
+    "short_desc": "похоже на модерн",
+    "description": "",
+    "price": "3000.00",
+    "quantity": 3
+  },
+  {
+    "category": "классика",
+    "name": "Люстра-ЛОФТ",
+    "image": "products_images/product-5-sm.jpg",
+    "short_desc": "вещи из хлама",
+    "description": "",
+    "price": "0.00",
+    "quantity": 0
+  },
+  {
+    "category": "дом",
+    "name": "ступа",
+    "image": "products_images/product-51.jpg",
+    "short_desc": "толочь не перетолочь",
+    "description": "",
+    "price": "0.00",
+    "quantity": 0
+   },
+  {
+    "category": "модерн",
+    "name": "лампа настольная",
+    "image": "products_images/product-1.jpg",
+    "short_desc": "",
+    "description": "",
+    "price": "2000.00",
+    "quantity": 5
+  },
+  {
+    "category": "классика",
+    "name": "светильник",
+    "image": "products_images/product-41.jpg",
+    "short_desc": "светит",
+    "description": "",
+    "price": "3000.00",
+    "quantity": 8
+  },
+  {
+    "category": "дом",
+    "name": "чайник",
+    "image": "products_images/product-3.jpg",
+    "short_desc": "",
+    "description": "",
+    "price": "1000.00",
+    "quantity": 20
+  },
+  {
+    "category": "офис",
+    "name": "стул мягенький)",
+    "image": "products_images/product-4.jpg",
+    "short_desc": "такой лучше в офис",
+    "description": "",
+    "price": "2500.00",
+    "quantity": 10
+  },
+  {
+    "category": "дом",
+    "name": "Камень со стрелками",
+    "image": "products_images/product-4-sm.jpg",
+    "short_desc": "",
+    "description": "",
+    "price": "500.00",
+    "quantity": 25
+  },
+  {
+    "category": "модерн",
+    "name": "слоновая кость",
+    "image": "products_images/product-21.jpg",
+    "short_desc": "вот",
+    "description": "",
+    "price": "3600.00",
+    "quantity": 5
+  },
+  {
+    "category": "модерн",
+    "name": "Светильник",
+    "image": "products_images/product-31.jpg",
+    "short_desc": "Весьма элегантный",
+    "description": "",
+    "price": "3000.00",
+    "quantity": 20
+  },
+  {
+    "category": "дом",
+    "name": "Ваза",
+    "image": "products_images/product-61.jpg",
+    "short_desc": "",
+    "description": "",
+    "price": "500.00",
+    "quantity": 100
+  }
+]
