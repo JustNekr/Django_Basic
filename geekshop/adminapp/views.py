@@ -62,7 +62,8 @@ def user_delete(request, pk):
 
     user = get_object_or_404(ShopUser, pk=pk)
 
-    user.is_active = False if user.is_active else True
+    if request.method == 'POST':
+        user.is_active = False if user.is_active else True
 
     user.save()
     return HttpResponseRedirect(reverse('admin_staff:users'))
@@ -121,7 +122,8 @@ def category_update(request, pk):
 def category_delete(request, pk):
     category = get_object_or_404(ProductCategory, pk=pk)
 
-    category.is_active = False if category.is_active else True
+    if request.method == 'POST':
+        category.is_active = False if category.is_active else True
 
     category.save()
     return HttpResponseRedirect(reverse('admin_staff:categories'))

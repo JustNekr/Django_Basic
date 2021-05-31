@@ -33,20 +33,22 @@
                     <td>
                         {% if object.is_active %}
                             <i class="fa fa-check-circle" href=
-                                    "{% url 'admin_staff:category_delete' pk=object.id %}"></i>
+                                    "{% url 'admin_staff:category_delete' pk=object.id %}" method="post"></i>
                         {% else %}
                             <i class="fa fa-times-circle"></i>
                         {% endif %}
                     </td>
                     <td>
                         {% if object.is_active %}
-                            <a href="{% url 'admin_staff:category_delete' pk=object.id %}">
-                                <button class="btn btn-danger" style="width: 130px">Удалить</button>
-                            </a>
+                            <form action="{% url 'admin_staff:category_delete' pk=object.id %}" method="post">
+                                {% csrf_token %}
+                                <input type="submit" class="btn btn-danger" style="width: 130px" value="Удалить"></p>
+                            </form>
                         {% else %}
-                            <a href="{% url 'admin_staff:category_delete' pk=object.id %}">
-                                <button class="btn btn-primary">Восстановить</button>
-                            </a>
+                            <form action="{% url 'admin_staff:category_delete' pk=object.id %}" method="post">
+                                {% csrf_token %}
+                                <input type="submit" class="btn btn-primary" style="width: 130px" value="Восстановить"></p>
+                            </form>
                         {% endif %}
                     </td>
                 </tr>
