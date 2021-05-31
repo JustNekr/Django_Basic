@@ -1,0 +1,45 @@
+{% extends 'adminapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="card">
+        <ul class="list-group list-group-flush">
+            <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Картинка</th>
+                <th scope="col">Название</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Количество</th>
+                <th scope="col">Цена</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th scope="col">Картинка</th>
+                <th scope="col">Название</th>
+                <th scope="col">Описание</th>
+                <th scope="col">Количество</th>
+                <th scope="col">Цена</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            {% for object in objects %}
+                <tr>
+                    <td>
+                        <img src="/media/{{ object.image|default:'default-ava.svg' }}" style="width: 100px">
+                    </td>
+                    <td>{{ object.name }}</td>
+                    <td>{{ object.short_desc }}</td>
+                    <td>{{ object.quantity }}</td>
+                    <td>{{ object.price }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+            <li class="list-group-item"><a href="#">
+                <button class="btn btn-success">Создать продукт</button>
+            </a></li>
+        </ul>
+    </div>
+{% endblock %}
