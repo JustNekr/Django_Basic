@@ -10,6 +10,7 @@
                 <th scope="col">Название</th>
                 <th scope="col">Описание</th>
                 <th scope="col">удаление</th>
+                <th scope="col">редактирование</th>
                 <th scope="col">удаление</th>
             </tr>
         </thead>
@@ -18,6 +19,7 @@
                 <th scope="col">Название</th>
                 <th scope="col">Описание</th>
                 <th scope="col">удаление</th>
+                <th scope="col">редактирование</th>
                 <th scope="col">удаление</th>
             </tr>
         </tfoot>
@@ -25,7 +27,7 @@
             {% for object in objects %}
                 <tr>
                     <td>
-                        <a href="{% url 'admin_staff:category_update' object.id %}" style="color: dodgerblue">
+                        <a href="{% url 'admin_staff:products' object.id %}" style="color: dodgerblue">
                             {{ object.name }}
                         </a>
                     </td>
@@ -36,6 +38,12 @@
                         {% else %}
                             <i class="fa fa-times-circle"></i>
                         {% endif %}
+                    </td>
+                    <td>
+                        <a type="button" href="{% url 'admin_staff:category_update' object.id %}"
+                                class="btn btn-info" style="width: 130px">
+                            Подробнее
+                        </a>
                     </td>
                     <td>
                         {% if object.is_active %}
