@@ -1,0 +1,12 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: account verify
+From: django@geekshop.local
+To: wiwa@mail.ru
+Date: Thu, 17 Jun 2021 15:46:08 -0000
+Message-ID: <162394476893.12020.9252639807200697596@DESKTOP-UK7ODFB>
+
+Verify link: 
+http://localhost:8000/auth/verify/wiwa@mail.ru/35dc4cde713788250ffe5c4622dcb0e6958ba825/
+-------------------------------------------------------------------------------
