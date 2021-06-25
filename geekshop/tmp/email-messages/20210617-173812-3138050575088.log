@@ -1,0 +1,12 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: account verify
+From: django@geekshop.local
+To: 1231@123213.mnail
+Date: Thu, 17 Jun 2021 15:38:12 -0000
+Message-ID: <162394429280.2784.16176470993151023296@DESKTOP-UK7ODFB>
+
+Verify link: 
+http://localhost:8000/auth/verify/1231@123213.mnail/40c96d4b4483ec5158eaaaf840fb0bf738dc2847/
+-------------------------------------------------------------------------------
