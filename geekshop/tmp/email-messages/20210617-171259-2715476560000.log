@@ -1,0 +1,12 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: account verify
+From: django@geekshop.local
+To: kodfsdf@mail.ru
+Date: Thu, 17 Jun 2021 15:12:59 -0000
+Message-ID: <162394277900.7572.12797845250379355837@DESKTOP-UK7ODFB>
+
+Для подтверждения перейдите по ссылке: 
+http://localhost:8000/auth/verify/kodfsdf@mail.ru/db2ffaa116e09e45b3c73aeb97bfa101bc2f2742/
+-------------------------------------------------------------------------------
