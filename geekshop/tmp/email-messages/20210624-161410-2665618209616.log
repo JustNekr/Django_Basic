@@ -1,0 +1,12 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: account verify
+From: geekshop@mail.ru
+To: testim@test.ru
+Date: Thu, 24 Jun 2021 14:14:10 -0000
+Message-ID: <162454405021.11244.4020015435486672327@DESKTOP-UK7ODFB>
+
+Verify link: 
+http://localhost:8000/auth/verify/testim@test.ru/3749562f17ed64661e78bf0bff274b98fac40eea/
+-------------------------------------------------------------------------------

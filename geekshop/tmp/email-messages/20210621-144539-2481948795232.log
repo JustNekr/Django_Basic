@@ -1,0 +1,12 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: account verify
+From: django@geekshop.local
+To: koko@mail.ru
+Date: Mon, 21 Jun 2021 12:45:39 -0000
+Message-ID: <162427953987.1048.17589618335656338869@DESKTOP-UK7ODFB>
+
+Verify link: 
+http://localhost:8000/auth/verify/koko@mail.ru/4da9f675b06385533623bde5d4b700d635011a66/
+-------------------------------------------------------------------------------

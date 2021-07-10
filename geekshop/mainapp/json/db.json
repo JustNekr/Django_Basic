@@ -1,0 +1,216 @@
+[
+  {
+    "model": "mainapp.productcategory",
+    "pk": 1,
+    "fields": {
+      "name": "дом",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 2,
+    "fields": {
+      "name": "офис",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 3,
+    "fields": {
+      "name": "модерн",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.productcategory",
+    "pk": 4,
+    "fields": {
+      "name": "классика",
+      "description": ""
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Диван",
+      "image": "products_images/product-3-sm.jpg",
+      "short_desc": "диван как диван",
+      "description": "",
+      "price": "15000.00",
+      "quantity": 5
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "парные кресла",
+      "image": "products_images/product-2.jpg",
+      "short_desc": "почему бы и нет",
+      "description": "",
+      "price": "8000.00",
+      "quantity": 10
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "category": 3,
+      "name": "Лампа",
+      "image": "products_images/product-11.jpg",
+      "short_desc": "похоже на модерн",
+      "description": "",
+      "price": "3000.00",
+      "quantity": 3
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 4,
+    "fields": {
+      "category": 4,
+      "name": "Люстра-ЛОФТ",
+      "image": "products_images/product-5-sm.jpg",
+      "short_desc": "вещи из хлама",
+      "description": "",
+      "price": "0.00",
+      "quantity": 0
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "ступа",
+      "image": "products_images/product-51.jpg",
+      "short_desc": "толочь не перетолочь",
+      "description": "",
+      "price": "0.00",
+      "quantity": 0
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "name": "лампа настольная",
+      "image": "products_images/product-1.jpg",
+      "short_desc": "",
+      "description": "",
+      "price": "2000.00",
+      "quantity": 5
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 7,
+    "fields": {
+      "category": 4,
+      "name": "светильник",
+      "image": "",
+      "short_desc": "светит",
+      "description": "",
+      "price": "3000.00",
+      "quantity": 8
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 8,
+    "fields": {
+      "category": 1,
+      "name": "чайник",
+      "image": "products_images/product-3.jpg",
+      "short_desc": "",
+      "description": "",
+      "price": "1000.00",
+      "quantity": 20
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 9,
+    "fields": {
+      "category": 2,
+      "name": "стул мягенький)",
+      "image": "products_images/product-4.jpg",
+      "short_desc": "такой лучше в офис",
+      "description": "",
+      "price": "2500.00",
+      "quantity": 10
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 10,
+    "fields": {
+      "category": 1,
+      "name": "Камень со стрелками",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "",
+      "description": "",
+      "price": "500.00",
+      "quantity": 25
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 11,
+    "fields": {
+      "category": 3,
+      "name": "слоновая кость",
+      "image": "products_images/product-21.jpg",
+      "short_desc": "вот",
+      "description": "",
+      "price": "3600.00",
+      "quantity": 5
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 12,
+    "fields": {
+      "category": 3,
+      "name": "Светильник",
+      "image": "products_images/product-31.jpg",
+      "short_desc": "Весьма элегантный",
+      "description": "",
+      "price": "3000.00",
+      "quantity": 20
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 13,
+    "fields": {
+      "category": 4,
+      "name": "Снова лофт",
+      "image": "products_images/product-41.jpg",
+      "short_desc": "",
+      "description": "",
+      "price": "1000.00",
+      "quantity": 2
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 14,
+    "fields": {
+      "category": 1,
+      "name": "Ваза",
+      "image": "products_images/product-61.jpg",
+      "short_desc": "",
+      "description": "",
+      "price": "500.00",
+      "quantity": 100
+    }
+  }
+]
